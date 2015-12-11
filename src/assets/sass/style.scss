@@ -41,3 +41,13 @@
 
     }
 }
+
+tr td{
+    font-weight: bold;
+    p{
+        font-weight: normal;
+    }
+}
+.no-radius th{
+    border-radius: 0;
+}

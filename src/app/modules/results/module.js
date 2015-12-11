@@ -2,24 +2,23 @@
 
   'use strict';
 
-
   angular
-      .module('ajusteMatricula.home', ['ui.router'])
+      .module('ajusteMatricula.results', ['ui.router'])
       .config(config);
 
 
   function config($stateProvider, $urlRouterProvider) {
 
-    var modulePath = 'app/modules/home/views/';
+    var modulePath = 'app/modules/results/views/';
 
     $stateProvider
-      .state('home', {
-        url: '/',
+      .state('results', {
+        url: '/results',
         templateUrl: modulePath+'index.html',
-        controller: 'HomeRetrieveCtrl',
+        controller: 'ResultsRetrieveCtrl',
         controllerAs: 'vm'
     });
 
-  };
+  }
 
 }());

@@ -6,6 +6,7 @@
 
     function HomeRetrieveCtrl($scope, $rootScope, $location, APP_SETTINGS) {
 
+        var vm = this;
 
     }
 })();

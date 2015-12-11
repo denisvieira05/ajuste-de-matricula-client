@@ -6,6 +6,7 @@
         // App Modules Dependencies
         'ajusteMatricula.dashboard',
         'ajusteMatricula.home',
+        'ajusteMatricula.results',
 
         // External Dependencies
         'ui.router'
